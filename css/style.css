@@ -1,0 +1,134 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+/* header */
+.header {
+  font-family: 'Roboto', serif;
+  font-weight: 500;
+  color: rgb(33 33 33);
+  text-decoration: none;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header_contacts li {
+  color: rgb(117 117 117);
+}
+
+.header a:hover:not(.logo-link) {
+  color: rgb(33 150 243);
+}
+
+.header_logo span {
+  color: rgb(33 150 243);
+}
+
+.header_logo {
+  font-family:'Raleway', serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/* hero */
+.hero > h1 {
+  font-family: 'Roboto', serif;
+  font-size: 44px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.hero > a {
+  font-family: 'Roboto', serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  line-height: 30px;
+
+  display: inline-block;
+  padding: 10px 32px;
+  background-color:rgb(33 150 243);
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* features */
+.features h3 {
+  font-family: 'Roboto', serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(33 33 33);
+}
+
+.features p {
+  font-family: 'Roboto', serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(117 117 117);
+  line-height: 24px;
+}
+
+.features h2 {
+  font-family: 'Roboto', serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(33 33 33);
+}
+
+/* our team */
+.team h2 {
+  font-family: 'Roboto', serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(33 33 33);
+}
+
+.team_name {
+  font-family: 'Roboto', serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(33 33 33);
+}
+
+.team_position {
+  font-family: 'Roboto', serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(117 117 117);
+}
+
+/* footer */
+.footer {
+  background-color: rgba(47, 48, 58, 1);
+}
+
+.footer_adresse {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer_logo {
+  color: #fff;
+  font-family:'Raleway', serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.footer_logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer_logo span {
+  color: rgb(33 150 243);
+}
+
+.footer_adresse span {
+  color: #fff;
+}

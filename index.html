@@ -4,12 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WebStudio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/modern-normalize.css">
 </head>
 <body>
   <header class="header">
-    <p class="header_logo"><a href="./index.html">WebStudio</a></p>
+    <p class="header_logo"><a class="logo-link" href="./index.html"><span>Web</span>Studio</a></p>
     <nav class="header_nav">
       <ul class="header_nav-list">
         <li class="list-item"><a href="">Студія</a></li>
@@ -17,7 +23,7 @@
         <li class="list-item"><a href="">Контакти</a></li>
       </ul>
       <ul class="header_contacts">
-        <li>info@devstudio.com</li>
+        <li><a href="#">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </nav>
@@ -57,29 +63,29 @@
     <ul class="team_list">
       <li class="team_item">
         <img src="./images/our-team/Igor-Demjanenko.jpg" alt="team" width="270" height="260">
-        <p>Ігор Дем'яненко</p>
-        <p>Product Designer</p>
+        <p class="team_name">Ігор Дем'яненко</p>
+        <p class="team_position">Product Designer</p>
       </li>
       <li class="team_item">
         <img src="./images/our-team/Olga-Repina.jpg" alt="team" width="270" height="260">
-        <p>Ольга Рєпіна</p>
-        <p>Frontend Developer</p>
+        <p class="team_name">Ольга Рєпіна</p>
+        <p class="team_position">Frontend Developer</p>
       </li>
       <li class="team_item">
         <img src="./images/our-team/Mikola-Tarasow.jpg" alt="team" width="270" height="260">
-        <p>Микола Тарасов</p>
-        <p>Marketing</p>
+        <p class="team_name">Микола Тарасов</p>
+        <p class="team_position">Marketing</p>
       </li>
       <li class="team_item">
         <img src="./images/our-team/Mikola-Ermakow.jpg" alt="team" width="270" height="260">
-        <p>Михайло Єрмаков</p>
-        <p>UI Designer</p>
+        <p class="team_name">Михайло Єрмаков</p>
+        <p class="team_position">UI Designer</p>
       </li>
     </ul>
   </section>
   <footer class="footer">
-    <p>WebStudio</p>
-    <adresse>м. Київ, пр-т Лесі Українки, 26<br>info@devstudio.com<br>+38 096 111 11 11</adresse>
+    <p class="footer_logo"><a class="logo-link" href="./index.html"><span>Web</span>Studio</a></p>
+    <adresse class="footer_adresse"><span>м. Київ, пр-т Лесі Українки, 26</span><br>info@devstudio.com<br>+38 096 111 11 11</adresse>
   </footer>
 </body>
 </html>
