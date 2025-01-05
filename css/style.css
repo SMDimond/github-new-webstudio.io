@@ -10,10 +10,20 @@ ul {
 
 /* header */
 .header {
+  height: 80px;
+
   font-family: 'Roboto', serif;
   font-weight: 500;
   color: rgb(33 33 33);
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+}
+
+.header_nav {
+  margin-right: 344px;
 }
 
 .header a {
@@ -37,6 +47,21 @@ ul {
   font-family:'Raleway', serif;
   font-size: 26px;
   font-weight: 700;
+  margin-right: 93px;
+}
+
+.header_nav-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header_contacts {
+  display: flex;
+  flex-direction: row;
 }
 
 /* hero */
