@@ -3,6 +3,11 @@ body {
   font-weight: 400;
 }
 
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
 /* header */
 .header {
   font-family: 'Roboto', serif;
