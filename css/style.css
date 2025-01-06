@@ -29,10 +29,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: end;
-}
-
-.header_nav {
-  margin-right: 300px;
+  margin-left: auto;
 }
 
 .header_nav-list {
@@ -75,10 +72,10 @@ ul {
   height: 600px;
   background-color: rgba(47, 48, 58, 1);
   padding-top: 200px;
+  text-align: center;
 }
 
 .primal-title {
-  text-align: center;
   text-transform: uppercase;
 }
 
@@ -101,7 +98,6 @@ ul {
   padding: 10px 32px;
   background-color:rgb(33 150 243);
   border-radius: 5px;
-  text-align: center;
   
 }
 
