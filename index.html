@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,36 +14,37 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/modern-normalize.css">
 </head>
+
 <body>
-  <header class="header">
-      <p class="header_logo"><a class="logo-link" href="./index.html"><span>Web</span>Studio</a></p>
-      <nav class="header_nav">
-        <ul class="header_nav-list">
-          <li class="list-item"><a href="">Студія</a></li>
-          <li class="list-item"><a href="">Портфоліо</a></li>
-          <li class="list-item"><a href="">Контакти</a></li>
-        </ul>
-      </nav>
-      <ul class="header_contacts">
-        <li class="list-item"><a href="#">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+  <header class="header wrapper-page">
+    <p class="header_logo"><a class="logo-link" href="./index.html"><span>Web</span>Studio</a></p>
+    <nav class="header_nav">
+      <ul class="header_nav-list">
+        <li class="list-item"><a href="">Студія</a></li>
+        <li class="list-item"><a href="">Портфоліо</a></li>
+        <li class="list-item"><a href="">Контакти</a></li>
       </ul>
+    </nav>
+    <ul class="header_contacts">
+      <li class="list-item"><a href="#">info@devstudio.com</a></li>
+      <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+    </ul>
   </header>
   <section class="hero">
     <h1 class="primal-title">Ефективні рішення для<br> вашого бізнесу</h1>
     <a class="hero_btn">Замовити послугу</a>
   </section>
-  <section class="features">
+  <section class="features wrapper-page">
     <ul class="features_list">
-      <li class="features_list-item">
+      <li class="features_list-item margining">
         <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
         <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
       </li>
-      <li class="features_list-item">
+      <li class="features_list-item margining">
         <h3>ПУНКТУАЛЬНІСТЬ</h3>
         <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
       </li>
-      <li class="features_list-item">
+      <li class="features_list-item margining">
         <h3>ПЛАНУВАННЯ</h3>
         <p>Так само консультація з широким активом значною мірою зумовлює.</p>
       </li>
@@ -51,41 +53,49 @@
         <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
       </li>
     </ul>
-    <h2 class="features_title">Чим ми займаємося</h2>
-    <ul>
-      <li><img src="./images/features/img-1.jpg" alt="ourwork" width="370" height="294"></li>
-      <li><img src="./images/features/img-2.jpg" alt="ourwork" width="370" height="294"></li>
-      <li><img src="./images/features/img-3.jpg" alt="ourwork" width="370" height="294"></li>
-    </ul>
+    <div class="our-work">
+      <h2 class="features_title">Чим ми займаємося</h2>
+      <ul class="ourwork-container">
+        <li class="ourwork-item"><img src="./images/features/img-1.jpg" alt="ourwork" width="370" height="294"></li>
+        <li class="ourwork-item"><img src="./images/features/img-2.jpg" alt="ourwork" width="370" height="294"></li>
+        <li class="ourwork-item"><img src="./images/features/img-3.jpg" alt="ourwork" width="370" height="294"></li>
+      </ul>
+    </div>
   </section>
   <section class="team">
-    <h2 class="team_title">Наша команда</h2>
-    <ul class="team_list">
-      <li class="team_item">
-        <img src="./images/our-team/Igor-Demjanenko.jpg" alt="team" width="270" height="260">
-        <p class="team_name">Ігор Дем'яненко</p>
-        <p class="team_position">Product Designer</p>
-      </li>
-      <li class="team_item">
-        <img src="./images/our-team/Olga-Repina.jpg" alt="team" width="270" height="260">
-        <p class="team_name">Ольга Рєпіна</p>
-        <p class="team_position">Frontend Developer</p>
-      </li>
-      <li class="team_item">
-        <img src="./images/our-team/Mikola-Tarasow.jpg" alt="team" width="270" height="260">
-        <p class="team_name">Микола Тарасов</p>
-        <p class="team_position">Marketing</p>
-      </li>
-      <li class="team_item">
-        <img src="./images/our-team/Mikola-Ermakow.jpg" alt="team" width="270" height="260">
-        <p class="team_name">Михайло Єрмаков</p>
-        <p class="team_position">UI Designer</p>
-      </li>
-    </ul>
+    <div class="wrapper-page">
+      <h2 class="team_title">Наша команда</h2>
+      <ul class="team_list">
+        <li class="team_item">
+          <img src="./images/our-team/Igor-Demjanenko.jpg" alt="team" width="270" height="260">
+          <p class="team_name">Ігор Дем'яненко</p>
+          <p class="team_position">Product Designer</p>
+        </li>
+        <li class="team_item">
+          <img src="./images/our-team/Olga-Repina.jpg" alt="team" width="270" height="260">
+          <p class="team_name">Ольга Рєпіна</p>
+          <p class="team_position">Frontend Developer</p>
+        </li>
+        <li class="team_item">
+          <img src="./images/our-team/Mikola-Tarasow.jpg" alt="team" width="270" height="260">
+          <p class="team_name">Микола Тарасов</p>
+          <p class="team_position">Marketing</p>
+        </li>
+        <li class="team_item">
+          <img src="./images/our-team/Mikola-Ermakow.jpg" alt="team" width="270" height="260">
+          <p class="team_name">Михайло Єрмаков</p>
+          <p class="team_position">UI Designer</p>
+        </li>
+      </ul>
+    </div>
   </section>
   <footer class="footer">
-    <p class="footer_logo"><a class="logo-link" href="./index.html"><span>Web</span>Studio</a></p>
-    <adresse class="footer_adresse"><span>м. Київ, пр-т Лесі Українки, 26</span><br>info@devstudio.com<br>+38 096 111 11 11</adresse>
+    <div class="wrapper-page">
+      <p class="footer_logo"><a class="logo-link" href="./index.html"><span>Web</span>Studio</a></p>
+      <adresse class="footer_adresse"><span>м. Київ, пр-т Лесі Українки, 26</span><br>info@devstudio.com<br>+38 096
+        1111111</adresse>
+    </div>
   </footer>
 </body>
+
 </html>

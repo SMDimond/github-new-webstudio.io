@@ -8,11 +8,15 @@ ul {
   padding-left: 0px;
 }
 
+.wrapper-page {
+  width: 1230px;
+  padding-inline: 15px;
+  margin: 0 auto;
+}
 
 /* header */
 .header {
   height: 80px;
-  width: 1170px;
   margin: 0 auto;
 
   font-family: 'Roboto', serif;
@@ -61,6 +65,7 @@ ul {
   font-size: 26px;
   font-weight: 700;
   margin-right: 93px;
+  margin-left: 0px;
 }
 
 .list-item:not(:last-child) {
@@ -102,6 +107,11 @@ ul {
 }
 
 /* features */
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .features h3 {
   font-family: 'Roboto', serif;
   font-size: 14px;
@@ -117,6 +127,11 @@ ul {
   line-height: 24px;
 }
 
+.features_title {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
 .features h2 {
   font-family: 'Roboto', serif;
   font-size: 36px;
@@ -124,12 +139,44 @@ ul {
   color: rgb(33 33 33);
 }
 
+.features_list {
+  display: flex;
+  justify-content: center;
+}
+
+.features_list-item {
+  width: calc((100% - 90px) / 4);
+}
+
+.margining {
+  margin-right: 30px;
+}
+
+.our-work {
+  text-align: center;
+}
+
+.ourwork-container {
+  display: flex;
+}
+
+.ourwork-item:not(last-child) {
+  margin-right: 30px;
+}
+
 /* our team */
+.team {
+  padding-block: 94px;
+  background-color: rgba(245, 244, 250, 1);
+}
+
 .team h2 {
   font-family: 'Roboto', serif;
   font-size: 36px;
   font-weight: 700;
   color: rgb(33 33 33);
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .team_name {
@@ -146,15 +193,39 @@ ul {
   color: rgb(117 117 117);
 }
 
+.team_list {
+  display: flex;
+  justify-content: row;
+}
+
+.team_item {
+  width: 270px;
+  text-align: center;
+
+  box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.team_item:not(last-child) {
+  margin-right: 30px;
+}
+
 /* footer */
+.wrapper-footer-content {
+  height: 252px;
+}
+
 .footer {
+  height: 252px;
   background-color: rgba(47, 48, 58, 1);
+  padding-block: 60px;
 }
 
 .footer_adresse {
   font-size: 14px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
+  line-height: 24px;
 }
 
 .footer_logo {
@@ -176,3 +247,4 @@ ul {
 .footer_adresse span {
   color: #fff;
 }
+
