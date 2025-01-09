@@ -14,6 +14,8 @@ ul {
   margin: 0 auto;
 }
 
+/* - - - - - - - - - - - - - - - - Home - - - - - - - - - - - - - - - -  */
+
 /* header */
 .header {
   height: 80px;
@@ -22,10 +24,9 @@ ul {
   font-family: 'Roboto', serif;
   font-weight: 500;
   color: rgb(33 33 33);
-  text-decoration: none;
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
 
 }
 
@@ -45,6 +46,8 @@ ul {
 .header a {
   text-decoration: none;
   color: inherit;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header_contacts li {
