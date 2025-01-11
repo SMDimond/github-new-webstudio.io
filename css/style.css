@@ -204,7 +204,8 @@ ul {
 .team_item {
   width: 270px;
   text-align: center;
-
+  
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
@@ -268,22 +269,19 @@ ul {
   font-family: 'Roboto', serif;
   font-weight: 700;
   font-size: 18px;
-  /* line-height: 2.25rem; */
   color: rgba(33, 33, 33, 1);
 }
 
 .proect-item p {
   font-family: 'Roboto', serif;
   font-weight: 400;
-  /* line-height: 1.9rem; */
   color: rgba(117, 117, 117, 1);
 }
 
 /* project-filter */
 
 .projects {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding: 94px 0px;
 }
 
 .projects-btn {
