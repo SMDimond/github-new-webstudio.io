@@ -131,6 +131,7 @@ header a {
   background-color: rgba(47, 48, 58, 1);
   text-align: center;
   padding-top: 200px;
+  margin: 0 auto;
 }
 
 .primary-title {
