@@ -79,15 +79,6 @@ ul {
   margin-right: 50px;
 }
 
-.header__svg {
-  fill: #757575;
-  margin-right: 10px;
-}
-
-.cool:hover {
-  fill: #2196F3;
-}
-
 /* hero */
 .hero {
   height: 600px;
