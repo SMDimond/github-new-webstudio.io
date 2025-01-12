@@ -20,27 +20,29 @@
 <body>
 
   <header class="header">
-    <a class="header__logo" href="./index.html">
-      <p><span class="logo-decor">Web</span>studio</p>
-    </a>
-    <nav class="header__navigation">
-      <ul class="nav-list">
-        <li class="nav-list__item"><a href="./index.html">Студія</a></li>
-        <li class="nav-list__item"><a href="">Портфоліо</a></li>
-        <li class="nav-list__item"><a href="">Контакти</a></li>
+    <div class="container header-box">
+      <a class="header__logo" href="./index.html">
+        <p><span class="logo-decor">Web</span>Studio</p>
+      </a>
+      <nav class="header__nav">
+        <ul class="nav-list">
+          <li class="nav-list__item"><a href="./index.html">Студія</a></li>
+          <li class="nav-list__item"><a href="">Портфоліо</a></li>
+          <li class="nav-list__item"><a href="">Контакти</a></li>
+        </ul>
+      </nav>
+      <ul class="contants-list">
+        <li class="contants-list__item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="contants-list__item"><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
       </ul>
-    </nav>
-    <ul class="contants-list">
-      <li class="contants-list__item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li class="contants-list__item"><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
-    </ul>
+    </div>
   </header>
   <section class="hero">
-    <h1 class="primary-title">Ефективні рішення для вашого бізнесу</h1>
+    <h1 class="primary-title">Ефективні рішення для<br>вашого бізнесу</h1>
     <a class="hero__btn" href="">Замовити послугу</a>
   </section>
   <section class="features">
-    <div>
+    <div class="container">
       <ul class="features-list">
         <li class="features-list__item">
           <div></div>
@@ -63,42 +65,48 @@
           <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
         </li>
       </ul>
-    </div>
-    <div class="specification">
-      <h2 class="specification__subtitle">Чим ми займаємося</h2>
-      <ul class="specification-list">
-        <li class="specification-list__item"><img src="./images/home/features/img-1.jpg" alt="Desktop applications">
-        </li>
-        <li class="specification-list__item"><img src="./images/home/features/img-2.jpg" alt="Mobile applications"></li>
-        <li class="specification-list__item"><img src="./images/home/features/img-3.jpg" alt="Дизайнерські рішення">
-        </li>
-      </ul>
+      <div class="specification">
+        <h2 class="specification__subtitle">Чим ми займаємося</h2>
+        <ul class="specification-list">
+          <li class="specification-list__item"><img src="./images/home/features/img-1.jpg" alt="Desktop applications"
+              width="370" height="294">
+          </li>
+          <li class="specification-list__item"><img src="./images/home/features/img-2.jpg" alt="Mobile applications"
+              width="370" height="294">
+          </li>
+          <li class="specification-list__item"><img src="./images/home/features/img-3.jpg" alt="Дизайнерські рішення"
+              width="370" height="294">
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
   <section class="our-team">
-    <h2 class="our-team__subtitle">Наша команда</h2>
-    <ul class="our-team-list">
-      <li class="our-team-list__item">
-        <img src="./images/home/our-team/Igor-Demjanenko.jpg" alt="Ігор Дем'яненко">
-        <p class="item__name">Ігор Дем'яненко</p>
-        <p>Product Designer</p>
-      </li>
-      <li class="our-team-list__item">
-        <img src="./images/home/our-team/Olga-Repina.jpg" alt="Ольга Рєпіна">
-        <p class="item__name">Ольга Рєпіна</p>
-        <p>Frontend Developer</p>
-      </li>
-      <li class="our-team-list__item">
-        <img src="./images/home/our-team/Mikola-Tarasow.jpg" alt="Микола Тарасов">
-        <p class="item__name">Микола Тарасов</p>
-        <p>Marketing</p>
-      </li>
-      <li class="our-team-list__item">
-        <img src="./images/home/our-team/Mikola-Ermakow.jpg" alt="Михайло Єрмаков">
-        <p class="item__name">Михайло Єрмаков</p>
-        <p>UI Designer</p>
-      </li>
-    </ul>
+    <div class="container">
+      <h2 class="our-team__subtitle">Наша команда</h2>
+      <ul class="our-team-list">
+        <li class="our-team-list__item">
+          <img src="./images/home/our-team/Igor-Demjanenko.jpg" alt="Ігор Дем'яненко" width="270" height="260">
+          <p class="item__name">Ігор Дем'яненко</p>
+          <p class="position">Product Designer</p>
+        </li>
+        <li class="our-team-list__item">
+          <img src="./images/home/our-team/Olga-Repina.jpg" alt="Ольга Рєпіна" width="270" height="260">
+          <p class="item__name">Ольга Рєпіна</p>
+          <p class="position">Frontend Developer</p>
+        </li>
+        <li class="our-team-list__item">
+          <img src="./images/home/our-team/Mikola-Tarasow.jpg" alt="Микола Тарасов" width="270" height="260">
+          <p class="item__name">Микола Тарасов</p>
+          <p class="position">Marketing</p>
+        </li>
+        <li class="our-team-list__item">
+          <img src="./images/home/our-team/Mikola-Ermakow.jpg" alt="Михайло Єрмаков" width="270" height="260">
+          <p class="item__name">Михайло Єрмаков</p>
+          <p class="position">UI Designer</p>
+        </li>
+      </ul>
+    </div>
   </section>
   <section class="clietns">
     <svg>
@@ -121,12 +129,14 @@
     </svg>
   </section>
   <footer class="footer">
-    <p class="footer__logo"><span class="logo-decor">Web</span>studio</p>
-    <adresse class="footer__adresse">
-      м. Київ, пр-т Лесі Українки, 26<br>
-      info@devstudio.com<br>
-      +38 096 111 11 11
-    </adresse>
+    <div class="container">
+      <a href="./index.html"><p class="footer__logo"><span class="logo-decor">Web</span>Studio</p></a>
+      <adresse class="footer__adresse">
+        <span class="adress-color">м. Київ, пр-т Лесі Українки, 26</span><br>
+        info@devstudio.com<br>
+        +38 096 111 11 11
+      </adresse>
+    </div>
   </footer>
 
 </body>
