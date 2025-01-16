@@ -37,22 +37,12 @@
       </nav>
       <ul class="contacts-list">
         <li class="contacts-list__item">
-          <a class="contacts-link cursor" data-open-modal>
+          <a class="contacts-link" href="mailto:info@devstudio.com">
             <svg class="contacts-icon" width="16" height="12">
               <use href="./images/sprite.svg#icon-envelope-hover"></use>
             </svg>
             info@devstudio.com
           </a>
-          <div class="backdrop is-hidden" data-backdrop>
-            <div class="modal">
-              <a class="dialog__btn-close" data-close-modal>
-                <svg class="dialog__icon-close" width="19" height="19">
-                  <use href="./images/sprite.svg#icon-close-1"></use>
-                </svg>
-              </a>
-            </div>
-          </div>
-
         </li>
         <li class="contacts-list__item">
           <a class="contacts-link" href="tel:+38 096 111 11 11">
@@ -67,7 +57,16 @@
   </header>
   <section class="hero">
     <h1 class="primary-title">Ефективні рішення для<br>вашого бізнесу</h1>
-    <a class="hero__btn" href="">Замовити послугу</a>
+    <a class="hero__btn cursor" data-open-modal>Замовити послугу</a>
+    <div class="backdrop is-hidden" data-backdrop>
+      <div class="modal">
+        <a class="dialog__btn-close cursor" data-close-modal>
+          <svg class="dialog__icon-close" width="19" height="19">
+            <use href="./images/sprite.svg#icon-close-1"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
   </section>
   <section class="features">
     <div class="container">
