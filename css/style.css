@@ -110,7 +110,7 @@ header a {
 }
 
 .nav-list__item > a,
-.contacts-list__item a {
+.contacts-link {
   padding-block: 32px;
 }
 
@@ -149,7 +149,7 @@ header a {
   border-radius: 10px;
   background-color: var(--decor-color);
 }
-
+/* dialog */
 .backdrop {
   position: fixed;
   top: 0;
@@ -180,6 +180,37 @@ header a {
 
 .cursor {
   cursor: pointer;
+}
+
+.dialog__icon-close {
+  fill: none;
+  stroke:#000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3px;
+}
+
+.dialog__btn-close {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 8px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dialog__btn-close:hover,
+.dialog__btn-close:focus {
+  border: 1px solid var(--decor-color);
+  transform: scale(1.4)
 }
 
 /* - - - hero - - - */

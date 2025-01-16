@@ -45,9 +45,14 @@
           </a>
           <div class="backdrop is-hidden" data-backdrop>
             <div class="modal">
-              <button data-close-modal>закрыть</button>
+              <a class="dialog__btn-close" data-close-modal>
+                <svg class="dialog__icon-close" width="19" height="19">
+                  <use href="./images/sprite.svg#icon-close-1"></use>
+                </svg>
+              </a>
             </div>
           </div>
+
         </li>
         <li class="contacts-list__item">
           <a class="contacts-link" href="tel:+38 096 111 11 11">
@@ -109,15 +114,21 @@
         <ul class="specification-list">
           <li class="specification-list__item">
             <img src="./images/home/features/img-1.jpg" alt="Desktop applications" width="370" height="294">
-            <div class="specification__overlay"><h3>Десктопні додатки</h3></div>
+            <div class="specification__overlay">
+              <h3>Десктопні додатки</h3>
+            </div>
           </li>
           <li class="specification-list__item">
             <img src="./images/home/features/img-2.jpg" alt="Mobile applications" width="370" height="294">
-            <div class="specification__overlay"><h3>Мобільні додатки</h3></div>
+            <div class="specification__overlay">
+              <h3>Мобільні додатки</h3>
+            </div>
           </li>
           <li class="specification-list__item">
             <img src="./images/home/features/img-3.jpg" alt="Дизайнерські рішення" width="370" height="294">
-            <div class="specification__overlay"><h3>Дизайнерські рішення</h3></div>
+            <div class="specification__overlay">
+              <h3>Дизайнерські рішення</h3>
+            </div>
           </li>
         </ul>
       </div>
@@ -373,16 +384,16 @@
         closeModalBtn: document.querySelector('[data-close-modal]'),
         backdrop: document.querySelector('[data-backdrop]'),
       };
-  
+
       refs.openModalBtn.addEventListener('click', toggleModal);
       refs.closeModalBtn.addEventListener('click', toggleModal);
-  
+
       refs.backdrop.addEventListener('click', logBackdropClick);
-  
+
       function toggleModal() {
         refs.backdrop.classList.toggle('is-hidden');
       }
-  
+
       function logBackdropClick() {
         console.log('Это клик в бекдроп');
       }
