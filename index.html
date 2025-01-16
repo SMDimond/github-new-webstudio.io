@@ -27,13 +27,13 @@
       <nav class="header__nav">
         <ul class="nav-list">
           <li class="nav-list__item">
-            <a href="./index.html">Студія</a>
+            <a class="nav-list__link current" href="./index.html">Студія</a>
           </li>
           <li class="nav-list__item">
-            <a href="./portfolio.html">Портфоліо</a>
+            <a class="nav-list__link" href="./portfolio.html">Портфоліо</a>
           </li>
           <li class="nav-list__item">
-            <a href="">Контакти</a>
+            <a class="nav-list__link" href="">Контакти</a>
           </li>
         </ul>
       </nav>
@@ -106,12 +106,15 @@
         <ul class="specification-list">
           <li class="specification-list__item">
             <img src="./images/home/features/img-1.jpg" alt="Desktop applications" width="370" height="294">
+            <div class="specification__overlay"><h3>Десктопні додатки</h3></div>
           </li>
           <li class="specification-list__item">
             <img src="./images/home/features/img-2.jpg" alt="Mobile applications" width="370" height="294">
+            <div class="specification__overlay"><h3>Мобільні додатки</h3></div>
           </li>
           <li class="specification-list__item">
             <img src="./images/home/features/img-3.jpg" alt="Дизайнерські рішення" width="370" height="294">
+            <div class="specification__overlay"><h3>Дизайнерські рішення</h3></div>
           </li>
         </ul>
       </div>
@@ -315,15 +318,53 @@
   </section>
   <footer class="footer">
     <div class="container">
-      <a href="./index.html">
-        <p class="footer__logo"><span class="logo-decor">Web</span>Studio</p>
-      </a>
-      <adresse class="footer__adresse">
-        <span class="adress-color">м. Київ, пр-т Лесі Українки, 26</span><br>
-        info@devstudio.com<br>
-        +38 096 111 11 11
-      </adresse>
+      <div class="footer__wrapper">
+        <div class="footer__wrapper-adresse">
+          <a href="./index.html">
+            <p class="footer__logo"><span class="logo-decor">Web</span>Studio</p>
+          </a>
+          <adresse class="footer__adresse">
+            <span class="adress-color">м. Київ, пр-т Лесі Українки, 26</span><br>
+            info@devstudio.com<br>
+            +38 096 111 11 11
+          </adresse>
+        </div>
+        <div class="footer__wrapper-social">
+          <h3>приєднуйтесь</h3>
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a class="footer__soclial-link" href="">
+                <svg class="footer__link-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__soclial-link" href="">
+                <svg class="footer__link-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__soclial-link" href="">
+                <svg class="footer__link-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__soclial-link" href="">
+                <svg class="footer__link-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
+
   </footer>
 
 </body>
