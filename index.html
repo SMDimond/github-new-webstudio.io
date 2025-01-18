@@ -57,7 +57,7 @@
   </header>
   <section class="hero">
     <h1 class="primary-title">Ефективні рішення для<br>вашого бізнесу</h1>
-    <a class="hero__btn cursor" data-open-modal>Замовити послугу</a>
+    <button class="hero__btn cursor" data-open-modal>Замовити послугу</button>
     <div class="backdrop is-hidden" data-backdrop>
       <div class="modal">
         <a class="dialog__btn-close cursor" data-close-modal>
@@ -143,28 +143,28 @@
           <p class="position">Product Designer</p>
           <ul class="worker-social-list">
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-linkedin"></use>
                 </svg>
@@ -178,28 +178,28 @@
           <p class="position">Frontend Developer</p>
           <ul class="worker-social-list">
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-linkedin"></use>
                 </svg>
@@ -213,28 +213,28 @@
           <p class="position">Marketing</p>
           <ul class="worker-social-list">
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-linkedin"></use>
                 </svg>
@@ -248,28 +248,28 @@
           <p class="position">UI Designer</p>
           <ul class="worker-social-list">
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link">
+              <a class="social-link" href="">
                 <svg class="social-icon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-linkedin"></use>
                 </svg>
@@ -285,7 +285,7 @@
       <h2>Постійні клієнти</h2>
       <ul class="clients__logo-list">
         <li class="clients-logo-item">
-          <a class="logo-link" href="">
+          <a class="logo-link" href="#">
             <svg class="logo-icon" width="106" height="60">
               <use href="./images/sprite.svg#icon-Logo"></use>
             </svg>
@@ -378,26 +378,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
-    <!-- <script>
-      const refs = {
-        openModalBtn: document.querySelector('[data-open-modal]'),
-        closeModalBtn: document.querySelector('[data-close-modal]'),
-        backdrop: document.querySelector('[data-backdrop]'),
-      };
-
-      refs.openModalBtn.addEventListener('click', toggleModal);
-      refs.closeModalBtn.addEventListener('click', toggleModal);
-
-      refs.backdrop.addEventListener('click', logBackdropClick);
-
-      function toggleModal() {
-        refs.backdrop.classList.toggle('is-hidden');
-      }
-
-      function logBackdropClick() {
-        console.log('Это клик в бекдроп');
-      }
-    </script> -->
   </footer>
 
 </body>
