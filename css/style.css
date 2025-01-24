@@ -264,7 +264,9 @@ header a {
   letter-spacing: calc(1em / 100);
 }
 
-
+.feedback__wrapper-input {
+  display: block;
+}
 
 .feedback_input {
   width: 100%;
@@ -277,7 +279,7 @@ header a {
 }
 
 .feedback_label {
-  display: inline-block;
+  display: block;
   margin-bottom: 4px;
 }
 
