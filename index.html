@@ -366,9 +366,21 @@
             </li>
           </ul>
         </div>
+        <div class="footer__subscription">
+          <h3 class="footer__subscription-title">Підпишіться на розсилку</h3>
+          <form class="footer__subscr-form" name="subscription">
+            <input class="sub-input" type="email" name="user-subscr-email" placeholder="Email">
+            <button class="subscr-btn" type="submit">Підписатися
+              <svg width="24" height="24">
+                <use href="./images/sprite.svg#icon-subscription"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   </footer>
+  <!-- section modal-feedback -->
   <div class="backdrop is-hidden" data-backdrop>
     <div class="modal modal-zoom">
       <a class="dialog__btn-close cursor" data-close-modal>
@@ -406,8 +418,9 @@
           </div>
         </div>
         <div class="feedback__user-messages">
-          <label class="feedback__label-textarea feedback_label">Коментар</label>
-          <textarea class="modal__textarea modal_textarea"></textarea>
+          <label class="feedback__label-textarea feedback_label">Коментар
+            <textarea class="modal__textarea modal_textarea" name="comment-client"></textarea>
+          </label>
         </div>
         <div class="feedback__terms">
           <label class="feedback__label-checkbox" name="accepted-terms">
