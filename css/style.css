@@ -666,7 +666,6 @@ header a {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71em;
 
-  /* padding-block: 60px; */
   background-color: rgba(47, 48, 58, 1);
   height: 252px;
 }
@@ -789,7 +788,7 @@ header a {
   
   width: 200px;
   height: 50px;
-  margin-left: 12px;
+  margin-left: 8px;
 
   border: 1px solid var(--decor-color);
   border-radius: 4px;
