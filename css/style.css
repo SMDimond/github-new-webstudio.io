@@ -53,7 +53,7 @@ h3 {
 
 /* - - - header - - - */
 
-header a {
+.link {
   text-decoration: none;
   color: currentColor;
 }
@@ -134,6 +134,7 @@ header a {
 
 .contacts-list__icon {
   margin-right: 10px;
+
   fill: var(--text-color);
 }
 
@@ -146,7 +147,7 @@ header a {
   position: relative;
 }
 
-.current::before {
+.nav-list__link--current::before {
   content: '';
   height: 4px;
   width: 100%;
@@ -410,15 +411,11 @@ header a {
   margin: 0 auto;
 }
 
-.hero a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
 .hero__btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+
   min-width: 216px;
   height: 50px;
 
@@ -432,13 +429,13 @@ header a {
 }
 
 /* - - - features - - - */
-.features-list__item h3 {
+.features-list__title {
   font-weight: 700;
   font-size: 14px;
   margin-top: 30px;
 }
 
-.features-list__item p {
+.features-list__decr {
   line-height: 1.71em;
 }
 
@@ -465,6 +462,9 @@ header a {
 .features-list {
   display: flex;
   gap: 30px;
+}
+
+.features__list {
   margin-bottom: 94px;
 }
 
@@ -472,7 +472,7 @@ header a {
   width: calc((100% - 90px) / 4);
 }
 
-.features-list__item p {
+.features-list__decr {
   margin-top: 10px;
 }
 
@@ -487,7 +487,7 @@ header a {
   border-radius: 5px;
 }
 
-.specification-list__overlay h3 {
+.specification-list__overlay-title {
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
