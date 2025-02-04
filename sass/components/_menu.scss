@@ -1,0 +1,26 @@
+.nav-list {
+  display: flex;
+}
+
+.nav-list__item {
+  position: relative;
+  letter-spacing: calc(1em / 50);
+}
+
+.nav-list__link {
+  padding-block: 32px;
+}
+
+.nav-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-list__link--current::before {
+  content: '';
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  bottom: -31px;
+  border-radius: 10px;
+  background-color: var(--decor-color);
+}

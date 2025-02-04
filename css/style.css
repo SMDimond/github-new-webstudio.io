@@ -1,11 +1,11 @@
 /* - - - - - common styles - - - - - */
-:root {
+/* :root {
 --text-color: rgba(117, 117, 117, 1);
 --titles-color: rgba(33, 33, 33, 1);
 --decor-color: rgba(33, 150, 243, 1);
-}
+} */
 
-body {
+/* body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -36,18 +36,14 @@ h1,
 h2,
 h3 {
   color: var(--titles-color);
-}
+} */
 
 
-.container {
+/* .container {
   width: 1200px;
   padding-inline: 15px;
   margin: 0 auto;
-}
-
-#page.no-scroll {
-  overflow: hidden;
-}
+} */
 
 /* - - - - - - - - - - - - - - - - Home - - - - - - - - - - - - - - - -  */
 
@@ -81,28 +77,47 @@ h3 {
   color: var(--text-color);
 }
 
-.logo {
+/* .logo {
   font-family: 'Raleway', serif;
   font-size: 26px;
   font-weight: 700;
+  letter-spacing: calc(1em / 33.33);
 }
 
 .logo__decor-element {
   color: var(--decor-color);
-}
+} */
 
 .header__wrapper {
   display: flex;
   align-items: center;
 }
 
-.nav-list {
+/* .nav-list {
   display: flex;
 }
 
-/* .contacts-list {
-  display: flex;
-  margin-left: auto;
+.nav-list__item {
+  position: relative;
+  letter-spacing: calc(1em / 50);
+}
+
+.nav-list__link {
+  padding-block: 32px;
+}
+
+.nav-list__link--current::before {
+  content: '';
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  bottom: -31px;
+  border-radius: 10px;
+  background-color: var(--decor-color);
+}
+
+.nav-list__item:not(:last-child) {
+  margin-right: 50px;
 } */
 
 .header__contacts-list {
@@ -116,34 +131,15 @@ h3 {
   padding-block: 24px;
 }
 
-.nav-list__item:not(:last-child) {
-  margin-right: 50px;
-}
-
-/* .nav-list__item > a,
-.contacts-list__item a {
-  padding-block: 32px;
-} */
-
-.contacts-list__link,
-.nav-list__link {
+.contacts-list__link {
   padding-block: 32px;
 }
-
 
 .contacts-list__item:first-child {
   margin-right: 30px;
 
   letter-spacing: calc(1em / 50);
 }
-
-/* .contacts-list li {
-  letter-spacing: calc(1em / 50);
-} */
-
-/* .navigation li {
-  letter-spacing: calc(1em / 50);
-} */
 
 .contacts-list__icon {
   margin-right: 10px;
@@ -156,20 +152,9 @@ h3 {
   fill: var(--decor-color);
 }
 
-.nav-list__item {
-  position: relative;
-  letter-spacing: calc(1em / 50);
-}
 
-.nav-list__link--current::before {
-  content: '';
-  height: 4px;
-  width: 100%;
-  position: absolute;
-  bottom: -31px;
-  border-radius: 10px;
-  background-color: var(--decor-color);
-}
+
+
 
 /* dialog */
 .backdrop {
@@ -820,7 +805,6 @@ h3 {
 
 .footer__social-links {
   margin-top: 72px;
-  /* margin-right: 93px; */
 }
 
 .footer__subscription {
