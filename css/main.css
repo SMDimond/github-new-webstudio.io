@@ -259,6 +259,9 @@ h3 {
   position: relative;
   letter-spacing: 0.02em;
 }
+.nav-list__item:hover, .nav-list__item:focus {
+  color: var(--decor-color);
+}
 
 .nav-list__link {
   padding-block: 32px;
@@ -276,4 +279,31 @@ h3 {
   bottom: -31px;
   border-radius: 10px;
   background-color: var(--decor-color);
+}
+
+.contacts-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--text-color);
+}
+
+.contacts-list__link {
+  padding-block: 32px;
+}
+.contacts-list__link:hover, .contacts-list__link:focus {
+  color: var(--decor-color);
+}
+
+.contacts-list__item:first-child {
+  margin-right: 30px;
+  letter-spacing: 0.02em;
+}
+
+.contacts-list__icon {
+  margin-right: 10px;
+  fill: var(--text-color);
+}
+.contacts-list__link:hover .contacts-list__icon, .contacts-list__link:focus .contacts-list__icon {
+  fill: var(--decor-color);
 }/*# sourceMappingURL=main.css.map */

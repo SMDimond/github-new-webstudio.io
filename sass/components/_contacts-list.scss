@@ -1,0 +1,31 @@
+.contacts-list {
+  display: flex;
+  color: var(--text-color);
+}
+
+.contacts-list__link {
+  padding-block: 32px;
+
+  &:hover,
+  &:focus {
+    color: var(--decor-color);
+  }
+}
+
+.contacts-list__item:first-child {
+  margin-right: 30px;
+
+  letter-spacing: calc(1em / 50);
+}
+
+.contacts-list__icon {
+  margin-right: 10px;
+
+  fill: var(--text-color);
+
+  .contacts-list__link:hover &,
+  .contacts-list__link:focus & {
+  fill: var(--decor-color);
+}
+}
+

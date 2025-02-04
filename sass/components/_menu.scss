@@ -5,6 +5,11 @@
 .nav-list__item {
   position: relative;
   letter-spacing: calc(1em / 50);
+
+  &:hover,
+  &:focus {
+    color: var(--decor-color);
+  }
 }
 
 .nav-list__link {
