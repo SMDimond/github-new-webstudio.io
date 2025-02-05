@@ -664,9 +664,9 @@ adresse
   height: 252px;
 } */
 
-.adresse__adress--color {
+/* .adresse__adress--color {
   color: #ffffff;
-}
+} */
 
 /* .footer__logo {
   margin-right: 94px;
@@ -684,21 +684,22 @@ adresse
 } */
 
 
-.social-media-join {
+/* .social-media-join {
   width: 206px;
   height: 80px;
-}
+} */
 
-.social-media-join__title {
+/* .footer__social-links-title {
+  margin-bottom: 20px;
+
   font-size: 14px;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
-}
+} */
 
-.social-media-join__list {
+/* .social-media-join__list {
   display: flex;
-  margin-top: 20px;
 }
 
 .social-media-join__link {
@@ -723,7 +724,7 @@ adresse
 .social-media-join__link:hover,
 .social-media-join__link:focus {
   background-color: var(--decor-color);
-}
+} */
 
 /* .subscription__title {
   display: inline-block;

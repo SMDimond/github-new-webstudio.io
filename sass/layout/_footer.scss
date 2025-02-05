@@ -12,6 +12,10 @@
   margin-right: 70px;
 }
 
+.adresse__adress--color {
+  color: #ffffff;
+}
+
 .footer__social-links {
   margin-top: 72px;
 }
@@ -35,4 +39,21 @@
 
 .footer__wrapper {
   display: flex;
+}
+
+.footer__social-links-title {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.social-list__link--bg {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-list__link--bg .social-list__icon {
+  fill: #fff;
 }
