@@ -1,0 +1,38 @@
+.footer {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71em;
+
+  background-color: rgba(47, 48, 58, 1);
+  height: 252px;
+}
+
+.footer__wrapper-adresse {
+  width: 231px;
+  margin-top: 60px;
+  margin-right: 70px;
+}
+
+.footer__social-links {
+  margin-top: 72px;
+}
+
+.footer__subscription {
+  margin-top: 72px;
+  margin-left: auto;
+}
+
+.footer__adresse {
+  line-height: 2rem;
+}
+
+.footer__logo {
+  display: inline-block;
+  margin-right: 94px;
+  margin-bottom: 20px;
+
+  color: #ffffff;
+}
+
+.footer__wrapper {
+  display: flex;
+}
