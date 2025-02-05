@@ -49,10 +49,10 @@ h3 {
 
 /* - - - header - - - */
 
-.link {
+/* .link {
   text-decoration: none;
   color: currentColor;
-}
+} */
 
 
 
@@ -600,7 +600,7 @@ h3 {
 } */
 
 /* - - - clients - - - */
-.clients {
+/* .clients {
   padding: 94px 0px;
 }
 
@@ -652,7 +652,7 @@ h3 {
 .clients-list__link:hover .clients-list__logo,
 .clients-list__link:focus .clients-list__logo {
   fill: var(--decor-color);
-}
+} */
 
 /* - - - footer - - - */
 
