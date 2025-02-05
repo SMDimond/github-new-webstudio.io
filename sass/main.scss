@@ -1,19 +1,41 @@
+// BASE
 @import 'base/modern-normalize';
 @import 'base/reset';
+
+// COMPONENTS
+@import 'components/backdrop';
+@import 'components/card-worker';
+@import 'components/contacts-list';
 @import 'components/container';
-@import 'utils/variables';
 @import 'components/logo';
 @import 'components/menu';
-@import 'components/contacts-list';
-@import 'layout/header';
-@import 'components/backdrop';
 @import 'components/modal';
-@import 'layout/feedback';
-@import 'layout/hero';
-@import 'layout/_features';
 @import 'components/social-list';
-@import 'components/card-worker';
-@import 'layout/our-team';
-@import 'layout/clients';
-@import 'layout/footer';
 @import 'components/subscription-form';
+
+// LAYOUT
+@import 'layout/clients';
+@import 'layout/_features';
+@import 'layout/feedback';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/hero';
+@import 'layout/our-team';
+
+
+// UTILITES
+@import 'utils/variables';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
